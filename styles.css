@@ -8,8 +8,14 @@
     background-size: cover;
 }
 
+/* HEADER SECTION */
 
-.container {
+header {
+    position: sticky;
+    top: 0;
+}
+
+.nav-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -17,25 +23,25 @@
     margin: 20px;
 }
 
-.container h1 {
+.nav-container h1 {
     color: hsla(39, 93%, 95%, 1);
 }
 
-.container ul {
+.nav-container ul {
     list-style: none;
     display: flex;
     gap: 20px;
     letter-spacing: 3px;
 }
 
-.container ul li a {
+.nav-container ul li a {
     text-decoration: none;
     color: black;
     transition-duration: .3s;
     font-size: 18px;
 }
 
-.container ul li a:hover {
+.nav-container ul li a:hover {
     color: #e85a4f;
     text-decoration: underline;
     text-underline-offset: 1rem;
@@ -60,26 +66,28 @@
 
 
 /* HERO SECTION */
-/* #hero-section {
+
+#hero-section {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 100px;
-} */
+}
 
-.hero-container {
+/* .hero-container {
     margin-bottom: 20px;
     margin-left : 20px;
     position: fixed;
     bottom: 0;
-}
+} */
 
 .hero-text {
-    text-align: left;
+    text-align: center;
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
 .hero-text span {
@@ -98,13 +106,20 @@
     font-size: 32px;
 }
 
-/* .arrow {
+.arrow-container {
+    margin-bottom: 20px;
+    margin-left : 20px;
+    position: fixed;
+    bottom: 0;
+}
+
+.arrow {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 10px;
-} */
+}
 
 
 
