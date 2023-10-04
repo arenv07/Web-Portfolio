@@ -8,8 +8,11 @@
     background-size: cover;
 }
 
-/* HEADER SECTION */
+html {
+    scroll-behavior: smooth;
+}
 
+/* HEADER SECTION */
 header {
     position: sticky;
     top: 0;
@@ -66,7 +69,6 @@ header {
 
 
 /* HERO SECTION */
-
 #hero-section {
     height: 100vh;
     display: flex;
@@ -76,18 +78,11 @@ header {
     gap: 100px;
 }
 
-/* .hero-container {
-    margin-bottom: 20px;
-    margin-left : 20px;
-    position: fixed;
-    bottom: 0;
-} */
-
 .hero-text {
     text-align: center;
     display: flex;
     flex-direction: column;
-    color: white;
+    color: white
 }
 
 .hero-text span {
@@ -119,8 +114,27 @@ header {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    margin-top: 100px;
 }
 
+.arrow p {
+    color: black;
+}
 
+/* BIO SECTION */
+#bio {
+    height: 100vh; 
+    background: url(../images/bio-bkg.png) no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+}
 
+.bio-col-1 {
+    z-index: 1;
+    /* width: 60%; */
+}
+
+.bio-col-2 {
+    /* width: 40%; */
+}
 
