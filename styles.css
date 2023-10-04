@@ -59,5 +59,53 @@
 }
 
 
+/* HERO SECTION */
+/* #hero-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+} */
+
+.hero-container {
+    margin-bottom: 20px;
+    margin-left : 20px;
+    position: fixed;
+    bottom: 0;
+}
+
+.hero-text {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text span {
+    color: #e85a4f;
+}
+
+.hero-text h2 {
+    font-size: 40px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+}
+
+.hero-text h3 {
+    font-size: 32px;
+}
+
+/* .arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+} */
+
+
 
 
