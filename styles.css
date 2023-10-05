@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: "Syne", sans-serif;
-    background: url(../images/abstract-2.png) no-repeat center center fixed;
+    background: url(../images/abstract-bkg.png) no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -83,7 +83,7 @@ html {
 }
 
 .hero-text span {
-    color: #E2C88F;
+    color: #e85a4f;
 }
 
 .hero-text h2 {
