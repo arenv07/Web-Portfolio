@@ -100,6 +100,125 @@ html {
 
 
 /* BIO SECTION */
+.bio-row-1 {
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    gap: 20px;
+}
+
+.bio-description h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.bio-description span {
+    color: #e85a4f;
+    margin-right: 5px;
+}
+
+.bio-description p {
+    font-size: 30px;
+}
+
+.bio-row-1 img {
+    width: 400px;
+    height: 100%;
+}
+
+/* BIO - Hobbies */
+.bio-row-2 {
+    margin: 100px;
+}
+
+.bio-row-2 h2 {
+    font-size: 40px;
+    /* color: #e85a4f; */
+    text-align: center;
+}
+
+.hobbies-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.hobbies-container h3 {
+    font-size: 30px;
+}
+
+.col-1-row-1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.col-1-row-1 img {
+    height: 50px;
+    width: 50px;
+}
+
+.col-1-row-2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.col-1-row-2 img {
+    height: 50px;
+    width: 50px;
+}
+
+.col-1-row-3 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.col-1-row-3 img {
+    height: 50px;
+    width: 50px;
+}
+
+.col-2-row-1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.col-2-row-1 img {
+    height: 50px;
+    width: 50px;
+}
+
+.col-2-row-2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.col-2-row-2 img {
+    height: 50px;
+    width: 50px;
+}
+
+.col-2-row-3 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.col-2-row-3 img {
+    height: 50px;
+    width: 50px;
+}
+
+/* WORK SECTION */
+
 
 
 
