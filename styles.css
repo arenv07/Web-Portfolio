@@ -287,6 +287,7 @@ iframe {
 }
 
 /* CONTACT SECTION */
+
 .contact-container {
     display: flex;
     align-items: center;
@@ -306,7 +307,7 @@ form {
 
 form h3 {
     color: black;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
 }
