@@ -26,5 +26,32 @@
             </ul>
         </div>
     </header>
+
+    <div class="contact-container">
+        <form>
+            <h3>Get In Touch</h3>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="phone" id="phone" placeholder="Phone number" required>
+            <textarea id="message" rows="4" placeholder="Your message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host : "smtp.gmail.com",
+                Username : "arenvillano1@gmail.com",
+                Password : "CFAB3EAa1",
+                To : 'arenvillano@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "New Contact Form Inquiry",
+                Body : "And this is the body"
+            }).then(
+            message => alert(message)
+            );
+        }
+    </script> -->
 </body>
 </html>
