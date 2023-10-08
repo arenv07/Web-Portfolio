@@ -424,6 +424,8 @@ form h3 {
     font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
+    background: none;
+    font-size: 26px;
 }
 
 form input, form textarea {
