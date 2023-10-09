@@ -424,6 +424,7 @@ iframe {
     align-items: center;
     justify-content: center;
     margin-top: 150px;
+    /* margin-bottom: 50px; */
 }
 
 form {
@@ -547,6 +548,11 @@ form button {
         font-size: 14px;
         text-align: center;
         margin: 10px;
+    }
+
+    /* CONTACT STYLES */
+    .contact-container {
+        margin-bottom: 50px;
     }
 }
 
