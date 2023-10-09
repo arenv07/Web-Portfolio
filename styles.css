@@ -210,6 +210,10 @@ html {
     font-size: 30px;
 }
 
+.hobby-col-2 {
+    margin-top: 5px;
+}
+
 .col-1-row-1 {
     display: flex;
     align-items: center;
@@ -401,9 +405,6 @@ html {
 } */
 
 
-
-
-
 /* RESUME SECTION */
 
 .resume-container {
@@ -467,5 +468,59 @@ form button {
 
 .input {
     border-radius: 10px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+    
+    /* Bio section styles */
+    .bio-row-1 {
+        flex-direction: column;
+        margin: 20px;
+        gap: 20px;
+    }
+    
+    .bio-row-1 img {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .bio-description h1 {
+        font-size: 36px;
+    }
+    
+    .bio-description p {
+        font-size: 24px;
+    }
+    
+    /* Hobbies section styles */
+    .bio-row-2 {
+        margin: 20px;
+    }
+    
+    .bio-row-2 h2 {
+        font-size: 32px;
+    }
+    
+    .hobbies-container {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .hobbies-container h3 {
+        font-size: 24px;
+    }
+    
+    .col-1-row-1 img,
+    .col-1-row-2 img,
+    .col-1-row-3 img,
+    .col-2-row-1 img,
+    .col-2-row-2 img,
+    .col-2-row-3 img {
+        height: 40px;
+        width: 40px;
+    }
 }
 
