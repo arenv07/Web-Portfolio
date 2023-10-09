@@ -13,7 +13,7 @@ html {
 }
 
 /* LOADER ANNIMATION */
-/* #loader {
+#loader {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -23,14 +23,23 @@ html {
     z-index: 9999;
     top: 0;
     left: 0;
-    background-color: #B1CDE5;
+    /* background-color: #B1CDE5; */
     animation: anim2 1s cubic-bezier(0.19, 1, 0.22, 1) 7s both;
+}
+
+.elem img {
+    background: none;
+}
+
+.elem h3 {
+    background: none;
 }
 
 #wrapperload {
     width: 500px;
     height: 100px;
     overflow: hidden;
+    background: none;
 }
 
 #wrapperload .elem {
@@ -39,6 +48,7 @@ html {
     justify-content: center;
     width: 100%;
     height: 100%;
+    background: none;
 }
 
 #wrapperload .elem:nth-child(1) {
@@ -63,7 +73,7 @@ html {
     to {
         transform: translateY(-100%);
     }
-}   */
+}  
 
 /* HEADER SECTION */
 .nav-container {
